@@ -26,7 +26,7 @@ export default function WishlistPage() {
           {wishlist.map((product) => (
             <div
               key={product.id}
-              className={`transition-opacity duration-300 ${
+              className={`transition-opacity duration-300 h-full ${
                 removingId === product.id ? "opacity-0" : "opacity-100"
               }`}
             >
