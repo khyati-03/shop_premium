@@ -45,7 +45,7 @@ export default function ProductCard({
 
   return (
     <div
-      className="group relative bg-white/10 rounded-lg shadow p-4 flex flex-col cursor-pointer hover:shadow-lg transition-shadow"
+      className="group relative bg-white/10 rounded-lg shadow p-4 flex flex-col cursor-pointer hover:shadow-lg transition-shadow h-full"
       onClick={onQuickLook}
     >
       <img
